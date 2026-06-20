@@ -3,7 +3,8 @@ Simulación de Interacción Luz-Materia en 1D. (2021)
 
 DESCRIPCIÓN: Este proyecto simula la interacción entre un rayo luminoso (onda electromagnética) y un sistema de partículas cargadas unidas por muelles en una superficie unidimensional. El objetivo principal es estudiar el comportamiento de la materia y los patrones de transferencia de energía durante dicha interacción.
 
-<img width="637" height="489" alt="Captura de pantalla 2026-06-20 a las 18 27 49" src="https://github.com/user-attachments/assets/db3cc436-1530-441c-96f6-fc2703490072" />
+<img width="628" height="465" alt="Captura de pantalla 2026-06-20 a las 18 29 16" src="https://github.com/user-attachments/assets/43170565-73e3-4ded-92b5-030f18fe1deb" />
+
 <img width="629" height="477" alt="Captura de pantalla 2026-06-20 a las 18 29 06" src="https://github.com/user-attachments/assets/3fac62d2-e1a4-444f-ba78-a1a4be50addd" />
 
 CARACTERÍSTICAS
