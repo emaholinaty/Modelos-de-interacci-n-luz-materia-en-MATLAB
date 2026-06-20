@@ -3,6 +3,9 @@ Simulación de Interacción Luz-Materia en 1D. (2021)
 
 DESCRIPCIÓN: Este proyecto simula la interacción entre un rayo luminoso (onda electromagnética) y un sistema de partículas cargadas unidas por muelles en una superficie unidimensional. El objetivo principal es estudiar el comportamiento de la materia y los patrones de transferencia de energía durante dicha interacción.
 
+<img width="637" height="489" alt="Captura de pantalla 2026-06-20 a las 18 27 49" src="https://github.com/user-attachments/assets/db3cc436-1530-441c-96f6-fc2703490072" />
+<img width="629" height="477" alt="Captura de pantalla 2026-06-20 a las 18 29 06" src="https://github.com/user-attachments/assets/3fac62d2-e1a4-444f-ba78-a1a4be50addd" />
+
 CARACTERÍSTICAS
 1. Resolución de la Ecuación de Ondas: Generación de un potencial eléctrico sinusoidal variable en el tiempo para formar la onda.
    
@@ -14,7 +17,11 @@ CARACTERÍSTICAS
 
 ESTRUCTURA
 - Ec_ondas.m: Resuelve la ecuación de ondas para obtener el potencial y el campo eléctrico.
-- Luz_materia.m: script principal. Define las condiciones iniciales del sistema de partículas, gestiona la interacción y calcula las energías.
+  <img width="606" height="458" alt="Captura de pantalla 2026-06-20 a las 18 26 48" src="https://github.com/user-attachments/assets/c17f50ff-d69f-4b71-a614-5328ea6ab0b9" />
+
+- Luz_materia.m: script principal. Define las condiciones iniciales del sistema de partículas, gestiona la interacción y calcula las energías. En la imagen se muestran las partículas, en MATLAB se puede visualizar su movimiento con el tiempo debido a la interacción.
+<img width="637" height="489" alt="Captura de pantalla 2026-06-20 a las 18 27 49" src="https://github.com/user-attachments/assets/6fbb2e9d-def4-4f77-ab71-f19a505ef19c" />
+
 - Fuerzas_part.m: Función que calcula las fuerzas totales (elástica y eléctrica) sobre las partículas.
 - Verlet_part.m: Función que implementa el método de Verlet para actualizar el estado físico de las partículas en cada instante.
 
