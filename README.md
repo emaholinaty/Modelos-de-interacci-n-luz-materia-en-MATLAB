@@ -1,5 +1,5 @@
 # Modelos-de-interacci-n-luz-materia-en-MATLAB
-Simulación de Interacción Luz-Materia en 1D.
+Simulación de Interacción Luz-Materia en 1D. (2021)
 
 DESCRIPCIÓN: Este proyecto simula la interacción entre un rayo luminoso (onda electromagnética) y un sistema de partículas cargadas unidas por muelles en una superficie unidimensional. El objetivo principal es estudiar el comportamiento de la materia y los patrones de transferencia de energía durante dicha interacción.
 
