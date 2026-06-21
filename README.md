@@ -1,13 +1,13 @@
-# Modelos-de-interacci-n-luz-materia-en-MATLAB (2021)
-Simulación de Interacción Luz-Materia en 1D. (2021)
+# Modelos-de-interacci-n-luz-materia-en-MATLAB 
+Simulación de Interacción Luz-Materia en 1D. 
 
-DESCRIPCIÓN: Este proyecto simula la interacción entre un rayo luminoso (onda electromagnética) y un sistema de partículas cargadas unidas por muelles en una superficie unidimensional. El objetivo principal es estudiar el comportamiento de la materia y los patrones de transferencia de energía durante dicha interacción.
+Este proyecto simula la interacción entre un rayo luminoso (onda electromagnética) y un sistema de partículas cargadas unidas por muelles en una superficie unidimensional. El objetivo principal es estudiar el comportamiento de la materia y los patrones de transferencia de energía durante dicha interacción.
 
 <img width="628" height="465" alt="Captura de pantalla 2026-06-20 a las 18 29 16" src="https://github.com/user-attachments/assets/43170565-73e3-4ded-92b5-030f18fe1deb" />
 
 <img width="629" height="477" alt="Captura de pantalla 2026-06-20 a las 18 29 06" src="https://github.com/user-attachments/assets/3fac62d2-e1a4-444f-ba78-a1a4be50addd" />
 
-CARACTERÍSTICAS
+## CARACTERÍSTICAS
 1. Resolución de la Ecuación de Ondas: Generación de un potencial eléctrico sinusoidal variable en el tiempo para formar la onda.
    
 2. Dinámica de Partículas: Implementación del algoritmo de Verlet velocidades para resolver numéricamente las ecuaciones de movimiento (posición, velocidad y aceleración).
@@ -16,7 +16,7 @@ CARACTERÍSTICAS
    
 4. Escalabilidad: El sistema permite simular diferentes configuraciones, como 5, 9 u 11 partículas, y variar los modos de propagación de la onda.
 
-ESTRUCTURA
+## ESTRUCTURA
 - Ec_ondas.m: Resuelve la ecuación de ondas para obtener el potencial y el campo eléctrico.
   <img width="606" height="458" alt="Captura de pantalla 2026-06-20 a las 18 26 48" src="https://github.com/user-attachments/assets/c17f50ff-d69f-4b71-a614-5328ea6ab0b9" />
 
@@ -26,15 +26,15 @@ ESTRUCTURA
 - Fuerzas_part.m: Función que calcula las fuerzas totales (elástica y eléctrica) sobre las partículas.
 - Verlet_part.m: Función que implementa el método de Verlet para actualizar el estado físico de las partículas en cada instante.
 
-METODOLOGÍA Y HALLAZGOS
-1. Simetría de movimiento: Se encontró que las partículas en posiciones simétricas respecto a la central presentan el mismo módulo de energía cinética.
+## METODOLOGÍA Y HALLAZGOS
+1. Se encontró que las partículas en posiciones simétricas respecto a la central presentan el mismo módulo de energía cinética.
 
-2. Patrones predictivos: La simetría observada en sistemas de 5, 9 y 11 partículas permite predecir el comportamiento de sistemas con un número mayor de elementos.
+2. La simetría observada en sistemas de 5, 9 y 11 partículas permite predecir el comportamiento de sistemas con un número mayor de elementos.
    
-3. Uso de interpolación: Para asegurar la precisión, el código utiliza la función interp1 de MATLAB para que cada partícula experimente la fuerza exacta según su posición en el campo eléctrico.
+3. Para asegurar la precisión, el código utiliza la función **interp1** de MATLAB para que cada partícula experimente la fuerza exacta según su posición en el campo eléctrico.
 
 Software: MATLAB.
 
 Instrucciones: Ejecutar el archivo Luz_materia.m para iniciar la simulación completa. Puedes modificar variables como n (modos de propagación) o N_P (número de partículas) para explorar diferentes escenarios.
 
-Autores: Cecilia Mata Alonso y Ema Holinaty Vaquero (Universidad Autónoma de Madrid).
+**Autores:** Cecilia Mata Alonso y Ema Holinaty Vaquero (Universidad Autónoma de Madrid).
